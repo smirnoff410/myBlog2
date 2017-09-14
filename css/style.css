@@ -1,0 +1,61 @@
+.text-shadow {
+  text-shadow: 1px 1px 1px #000;
+}
+
+.box {
+  margin-top: 5px;
+  text-shadow: 1px grey;
+}
+
+.box img {
+  width: 250px;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+
+.pizza {
+  margin-top: 180px;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.icon-socials i {
+  font-size: 96px;
+}
+
+.icon-socials a {
+  color: #555;
+}
+
+.icon-socials a:hover {
+  color: #666;
+}
+
+@media screen and (max-width: 800px) {
+  .box img {
+    width: 200px;
+  }
+
+  .about-me {
+    flex-direction: column;
+  }
+
+  .about-img {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .box img {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .box img {
+    width: 100px;
+  }
+}
